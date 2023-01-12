@@ -1,0 +1,80 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    background-color: rgba(122, 121, 121, 0.5);
+}
+
+.modal-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.modal {
+    background: #fff;
+    margin: auto;
+    border-radius: 5px;
+    max-width: 500px;
+    width: 80%;
+    padding: 1rem;
+    border: 1px solid #5a6f08;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.3rem 0.5rem 1rem;
+}
+
+.modal-close-button {
+    background: transparent;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    color: rgb(39, 39, 39);
+    cursor: pointer;
+}
+
+.modal-body {
+    padding-left: 1rem;
+    padding-right: 2rem;
+    font-size: 18px;
+    color: rgb(111 100 8);
+    text-align: center;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.modal-ok-button-footer {
+    background: green;
+    color: white;
+    width: 20%;
+    cursor: pointer;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border: 1px solid rgb(39, 39, 39);
+    box-shadow: 3px 3px 3px black
+}
+
+.modal-cancel-button-footer {
+    background: red;
+    color: white;
+    width: 50%;
+    cursor: pointer;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border: 1px solid rgb(39, 39, 39);
+    box-Shadow: 3px 3px 3px black
+}

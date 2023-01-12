@@ -1,0 +1,16 @@
+.App {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button.modal-toggle {
+    background-color: rgb(7, 141, 40);
+    border: none;
+    color: rgb(181, 221, 197);
+    cursor: pointer;
+    padding: 1rem 1rem;
+    text-transform: uppercase;
+    box-shadow: #8bc34aed 5px 5px 5px;
+}

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Modal } from '../lib/modal';
 import './App.css';
+import logo from "./logo.PNG";
 
 function App() {
 
@@ -79,7 +80,10 @@ function App() {
         <div className="App">
             <div className='nav-vertical'>
                 <div className='content'>
-                    <div>
+                    <div className="centeritem">
+                        <img src={logo} alt="logo"></img>
+                    </div>
+                    <div className="centeritem">
                         <button className='modal-toggle' onClick={() => setDisplayModal(true)}>
                             show modal
                         </button>

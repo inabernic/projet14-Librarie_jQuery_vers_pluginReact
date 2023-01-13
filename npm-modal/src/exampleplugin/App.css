@@ -13,4 +13,14 @@ button.modal-toggle {
     padding: 1rem 1rem;
     text-transform: uppercase;
     box-shadow: #8bc34aed 5px 5px 5px;
+    width: 250px;
+}
+
+.centeritem {
+    align-items: center;
+}
+
+img,
+{
+width: 250px;
 }

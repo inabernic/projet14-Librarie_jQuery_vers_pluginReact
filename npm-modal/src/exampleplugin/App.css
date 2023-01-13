@@ -6,13 +6,13 @@
 }
 
 button.modal-toggle {
-    background-color: rgb(7, 141, 40);
+    background-color: rgb(89 135 35);
     border: none;
-    color: rgb(181, 221, 197);
+    color: white;
     cursor: pointer;
     padding: 1rem 1rem;
     text-transform: uppercase;
-    box-shadow: #8bc34aed 5px 5px 5px;
+    box-shadow: #8ed240ed 7px 7px 7px;
     width: 250px;
 }
 
@@ -20,7 +20,8 @@ button.modal-toggle {
     align-items: center;
 }
 
-img,
-{
-width: 250px;
+img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }

@@ -19,7 +19,6 @@ var Modal = function Modal(_ref) {
     modalFooterStyle = _ref.modalFooterStyle,
     xButtonStyle = _ref.xButtonStyle,
     modalButtonOkStyle = _ref.modalButtonOkStyle,
-    modalButtonCancelStyle = _ref.modalButtonCancelStyle,
     buttonOk = _ref.buttonOk;
   return showModal && /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, " ", /*#__PURE__*/_react.default.createElement("div", {
     className: "centeritem"

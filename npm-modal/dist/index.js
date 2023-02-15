@@ -9,4 +9,4 @@ Object.defineProperty(exports, "Modal", {
     return _Modal.Modal;
   }
 });
-var _Modal = require("./Modal");
+var _Modal = require("./Modal.js");

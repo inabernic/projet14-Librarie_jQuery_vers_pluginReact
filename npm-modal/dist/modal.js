@@ -20,9 +20,10 @@ var Modal = function Modal(_ref) {
     xButtonStyle = _ref.xButtonStyle,
     modalButtonOkStyle = _ref.modalButtonOkStyle,
     modalButtonCancelStyle = _ref.modalButtonCancelStyle,
-    buttonText1 = _ref.buttonText1,
-    buttonText2 = _ref.buttonText2;
-  return showModal && /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("div", {
+    buttonOk = _ref.buttonOk;
+  return showModal && /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, " ", /*#__PURE__*/_react.default.createElement("div", {
+    className: "centeritem"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "modal-overlay"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "modal-wrapper"
@@ -50,11 +51,6 @@ var Modal = function Modal(_ref) {
     className: "modal-ok-button-footer",
     style: modalButtonOkStyle,
     onClick: hideModal
-  }, buttonText1), /*#__PURE__*/_react.default.createElement("button", {
-    type: "button",
-    className: "modal-cancel-button-footer ",
-    style: modalButtonCancelStyle,
-    onClick: hideModal
-  }, buttonText2))))));
+  }, buttonOk)))))));
 };
 exports.Modal = Modal;

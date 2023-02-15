@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Modal } from '../lib/modal';
+import { Modal } from '../lib/Modal';
 import './App.css';
 import logo from "./logo.PNG";
 
@@ -80,18 +80,17 @@ function App() {
         <div className="App">
             <div className='nav-vertical'>
                 <div className='content'>
-                    <div className="centeritem">
+                    {/* <div className="centeritem"> */}
                         <img src={logo} alt="logo"></img>
                     </div>
-                    <div className="centeritem">
+                    
                         <button className='modal-toggle' onClick={() => setDisplayModal(true)}>
                             show modal
                         </button>
-                        <Modal modalStyle={modalStyle} modalHeaderStyle={modalHeaderStyle} titleStyle={titleStyle} modalBodyStyle={modalBodyStyle} modalFooterStyle={modalFooterStyle} xButtonStyle={xButtonStyle} modalButtonOkStyle={modalButtonOkStyle} modalButtonCancelStyle={modalButtonCancelStyle} title="Hello, here is placed the title of plugin modal" message="Here  is  placed the message of your modal's plugin" showModal={displayModal} hideModal={() => setDisplayModal(false)} buttonText1='Ok' buttonText2='Cancel' />
+                        <Modal modalStyle={modalStyle} modalHeaderStyle={modalHeaderStyle} titleStyle={titleStyle} modalBodyStyle={modalBodyStyle} modalFooterStyle={modalFooterStyle} xButtonStyle={xButtonStyle} modalButtonOkStyle={modalButtonOkStyle} modalButtonCancelStyle={modalButtonCancelStyle} title="Hello, here is placed the title of plugin modal" message="Here  is  placed the message of your modal's plugin" showModal={displayModal} hideModal={() => setDisplayModal(false)} buttonOk='Ok'  />
                     </div>
                 </div>
-            </div>
-        </div>
+            // </div>
     );
 }
 

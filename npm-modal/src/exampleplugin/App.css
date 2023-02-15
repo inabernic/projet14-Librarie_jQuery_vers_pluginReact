@@ -16,10 +16,6 @@ button.modal-toggle {
     width: 250px;
 }
 
-.centeritem {
-    align-items: center;
-}
-
 img {
     display: flex;
     justify-content: center;

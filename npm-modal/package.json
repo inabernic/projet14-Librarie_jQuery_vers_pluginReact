@@ -1,6 +1,6 @@
 {
-  "name": "npm-modal",
-  "version": "0.1.0",
+  "name": "@bernic/npm-modal",
+  "version": "0.5.3",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "files": [
